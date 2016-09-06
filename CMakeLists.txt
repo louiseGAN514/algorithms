@@ -1,19 +1,151 @@
-cmake_minimum_required( VERSION 2.6 )
-project( algorithm )
+cmake_minimum_required(VERSION 3.5)
+project(algorithms)
 
-include_directories( "include" )
-include_directories( "." )
-if( MSVC )
-	include_directories( "msvc" )
-endif()
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-#add_executable(word_seg "src/word_seg_demo.cpp")
-#add_executable(astar "src/astar_demo.cpp")
+set(SOURCE_FILES
+    include/2darray.h
+    include/8queen.h
+    include/astar.h
+    include/avl.h
+    include/base64.h
+    include/bellman_ford.h
+    include/binary_search_tree.h
+    include/bitset.h
+    include/bloom_filter.h
+    include/btree.h
+    include/bubble_sort.h
+    include/dictionary.h
+    include/dijkstra.h
+    include/directed_graph.h
+    include/disjoint-set.h
+    include/dos_tree.h
+    include/double_linked_list.h
+    include/edmonds_karp.h
+    include/fenwick_tree.h
+    include/fib-heap.h
+    include/generic.h
+    include/graph_defs.h
+    include/graph_search.h
+    include/hash_code.h
+    include/hash_multi.h
+    include/hash_string.h
+    include/hash_table.h
+    include/heap.h
+    include/huffman.h
+    include/imath.h
+    include/insertion_sort.h
+    include/integer.h
+    include/interval_tree.h
+    include/k-means.h
+    include/kmp.h
+    include/kruskal_mst.h
+    include/lcs.h
+    include/LRU_cache.h
+    include/max_subarray.h
+    include/md5.h
+    include/merge_sort.h
+    include/palindrome.h
+    include/perfect_hash.h
+    include/prim_mst.h
+    include/prime.h
+    include/priority_queue.h
+    include/queue.h
+    include/quick_sort.h
+    include/radix_sort.h
+    include/random.h
+    include/random_select.h
+    include/rbtree.h
+    include/rbtree_defs.h
+    include/relabel_to_front.h
+    include/scc.h
+    include/selection_sort.h
+    include/sha1.h
+    include/shell_sort.h
+    include/shuffle.h
+    include/simhash.h
+    include/skiplist.h
+    include/sol.h
+    include/sort.h
+    include/stack.h
+    include/suffix_array.h
+    include/suffix_tree.h
+    include/trie.h
+    include/undirected_graph.h
+    include/universal_hash.h
+    include/word_seg.h
+    msvc/alg_vs.h
+    msvc/stdbool.h
+    src/8queue_demo.cpp
+    src/astar_demo.cpp
+    src/avl_demo.cpp
+    src/base64_demo.cpp
+    src/bellman_ford_demo.cpp
+    src/binary_search_tree_demo.cpp
+    src/bitset_demo.cpp
+    src/bloom_filter_demo.cpp
+    src/btree_demo.cpp
+    src/bubble_sort_demo.cpp
+    src/dictionary_demo.cpp
+    src/dijkstra_demo.cpp
+    src/directed_graph_demo.cpp
+    src/disjoint-set_demo.cpp
+    src/dos_tree_demo.cpp
+    src/double_linked_list_demo.cpp
+    src/edmonds_karp_demo.cpp
+    src/fenwick_tree_demo.cpp
+    src/fib-heap_demo.cpp
+    src/graph_demo.cpp
+    src/graph_search_demo.cpp
+    src/hash_multi_demo.cpp
+    src/hash_string_demo.cpp
+    src/hash_table_demo.cpp
+    src/heap_demo.cpp
+    src/huffman_demo.cpp
+    src/imath_demo.cpp
+    src/insertion_sort_demo.cpp
+    src/integer_demo.cpp
+    src/interval_tree_demo.cpp
+    src/k-means_demo.cpp
+    src/kmp_demo.cpp
+    src/kruskal_mst_demo.cpp
+    src/lcs_demo.cpp
+    src/LRU_cache_demo.cpp
+    src/m_based_demo.cpp
+    src/max_subarray_demo.cpp
+    src/md5_demo.cpp
+    src/merge_sort_demo.cpp
+    src/palindrome_demo.cpp
+    src/perfect_hash_demo.cpp
+    src/prim_mst_demo.cpp
+    src/prime_decompose.c
+    src/prime_demo.cpp
+    src/priority_queue_demo.cpp
+    src/queue_demo.cpp
+    src/quick_sort_demo.cpp
+    src/radix_sort_demo.cpp
+    src/random_demo.cpp
+    src/random_select_demo.cpp
+    src/rbtree_demo.cpp
+    src/relabel_to_front_demo.cpp
+    src/scc_demo.cpp
+    src/selection_sort_demo.cpp
+    src/sha1_demo.cpp
+    src/shell_sort_demo.cpp
+    src/shuffle_demo.cpp
+    src/simhash_demo.cpp
+    src/skiplist_demo.cpp
+    src/sort_demo.cpp
+    src/stack_demo.cpp
+    src/suffix_array_demo.cpp
+    src/suffix_tree_demo.cpp
+    src/trie_demo.cpp
+    src/undirected_graph_demo.cpp
+    src/universal_hash_demo.cpp
+    src/word_seg_demo.cpp
+    utils/byteorder.h
+    utils/gb18030.h
+    LICENSE
+    README.md)
 
-file( GLOB APP_SOURCES src/*.cpp )
-SET( CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} /FI\"msvc/alg_vs.h\"" ) 
-message( ${CMAKE_CXX_FLAGS} )
-foreach( appsourcefile ${APP_SOURCES} )
-	get_filename_component( demo_name ${appsourcefile} NAME_WE )
-	add_executable( ${demo_name} ${appsourcefile} )
-endforeach( appsourcefile ${APP_SOURCES} )
+add_executable(algorithms ${SOURCE_FILES})

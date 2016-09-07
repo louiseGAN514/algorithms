@@ -149,3 +149,9 @@ set(SOURCE_FILES
     README.md)
 
 add_executable(algorithms ${SOURCE_FILES})
+
+add_executable(8queue_demo src/8queue_demo.cpp include/8queen.h)
+add_executable(astar_demo src/astar_demo.cpp include/astar.h)
+add_executable(avl_demo src/avl_demo.cpp include/avl.h)
+add_executable(base64_demo src/base64_demo.cpp include/base64.h)
+add_executable(bellman_ford_demo src/bellman_ford_demo.cpp include/bellman_ford.h)

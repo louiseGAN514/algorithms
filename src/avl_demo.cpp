@@ -1,5 +1,5 @@
 #include <iostream>
-#include "avl.h"
+#include "../include/avl.h"
 
 using namespace std;
 using namespace alg;

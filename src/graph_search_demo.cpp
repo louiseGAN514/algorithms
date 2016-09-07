@@ -2,8 +2,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "graph_search.h"
-#include "directed_graph.h"
+#include "../include/graph_search.h"
+#include "../include/directed_graph.h"
 
 using namespace alg;
 

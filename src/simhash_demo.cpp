@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "simhash.h"
+#include "../include/simhash.h"
 
 using namespace alg;
 void addsentence(char * str, SimHash &h);

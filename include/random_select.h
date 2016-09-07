@@ -20,7 +20,7 @@
 #ifndef ALGO_RANDOM_SELECT_H__
 #define ALGO_RANDOM_SELECT_H__
 
-#include <generic.h> 
+#include "generic.h"
 
 namespace alg {
 	/**

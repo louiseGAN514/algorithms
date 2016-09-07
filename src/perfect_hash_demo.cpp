@@ -15,8 +15,8 @@
 #include <string.h>
 #include <time.h>
 
-#include "generic.h"
-#include "perfect_hash.h"
+#include "../include/generic.h"
+#include "../include/perfect_hash.h"
 
 int main(void)
 {

@@ -1,6 +1,6 @@
-#include "dictionary.h"
-#include "hash_table.h"
-#include "random.h"
+#include "../include/dictionary.h"
+#include "../include/hash_table.h"
+#include "../include/random.h"
 #include <chrono>
 
 using namespace alg;

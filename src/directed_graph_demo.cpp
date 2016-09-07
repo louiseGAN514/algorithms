@@ -2,7 +2,7 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "directed_graph.h"
+#include "../include/directed_graph.h"
 
 using namespace alg;
 int main()

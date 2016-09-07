@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "skiplist.h"
+#include "../include/skiplist.h"
 
 using namespace alg;
 

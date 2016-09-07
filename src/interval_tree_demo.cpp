@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdlib.h> /* rand() */
 
-#include "interval_tree.h"
+#include "../include/interval_tree.h"
 using namespace alg;
 int main() {
     int i;

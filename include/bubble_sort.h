@@ -24,7 +24,7 @@
 #define _BUBBLE_SORT_H_
 
 #include <assert.h>
-#include <generic.h>
+#include "../include/generic.h"
 
 namespace alg {
 	template<typename T>

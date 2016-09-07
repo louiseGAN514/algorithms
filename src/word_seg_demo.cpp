@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "generic.h"
-#include "word_seg.h"
+#include "../include/generic.h"
+#include "../include/word_seg.h"
 
 using namespace alg;
 

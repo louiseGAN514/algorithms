@@ -3,7 +3,7 @@
 #include <sys/types.h>
 #include <time.h>
 #include <string.h>
-#include "md5.h" 
+#include "../include/md5.h"
 
 /* Prints message digest buffer in mdContext as 32 hexadecimal digits.
    Order is from low-order byte to high-order byte of digest.

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "imath.h"
+#include "../include/imath.h"
 
 int main() {
 	for (int i=10000;i<10100;i++) {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "integer.h"
+#include "../include/integer.h"
 using namespace alg;
 
 int main(void)

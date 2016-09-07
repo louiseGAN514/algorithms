@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "undirected_graph.h"
-#include "kruskal_mst.h"
+#include "../include/undirected_graph.h"
+#include "../include/kruskal_mst.h"
 
 using namespace alg;
 int main(void)

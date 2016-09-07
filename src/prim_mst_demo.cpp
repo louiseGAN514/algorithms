@@ -3,8 +3,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "undirected_graph.h"
-#include "prim_mst.h"
+#include "../include/undirected_graph.h"
+#include "../include/prim_mst.h"
 
 int main(void)
 {

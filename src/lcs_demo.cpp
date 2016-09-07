@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "lcs.h"
-#include "stack.h"
+#include "../include/lcs.h"
+#include "../include/stack.h"
 
 #define printlistC(list,n) \
 do { \

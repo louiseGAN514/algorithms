@@ -12,7 +12,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "universal_hash.h"
+#include "../include/universal_hash.h"
 
 using namespace alg;
 int main(void)

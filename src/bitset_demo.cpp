@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "bitset.h"
+#include "../include/bitset.h"
 
 using namespace alg;
 int main(void)

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "selection_sort.h"
+#include "../include/selection_sort.h"
 
 template<typename T>
 static void printlist(T & list,int count) {

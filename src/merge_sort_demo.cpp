@@ -2,8 +2,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "generic.h"
-#include "merge_sort.h"
+#include "../include/generic.h"
+#include "../include/merge_sort.h"
 
 using namespace alg;
 

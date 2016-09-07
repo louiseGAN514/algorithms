@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "edmonds_karp.h"
-#include "relabel_to_front.h"
+#include "../include/edmonds_karp.h"
+#include "../include/relabel_to_front.h"
 using namespace alg;
 
 int main(void)

@@ -18,7 +18,7 @@
 #ifndef ALGO_QUICKSORT_H__
 #define ALGO_QUICKSORT_H__
 
-#include <generic.h> 
+#include "generic.h"
 
 namespace alg {
 	/**

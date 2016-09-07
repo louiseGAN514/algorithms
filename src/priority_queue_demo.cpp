@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "priority_queue.h"
+#include "../include/priority_queue.h"
 
 int main(void)
 {

@@ -2,7 +2,7 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "undirected_graph.h"
+#include "../include/undirected_graph.h"
 
 /**
  * randomly generate a graph, for test purpose

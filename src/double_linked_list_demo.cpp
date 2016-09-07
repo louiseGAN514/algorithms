@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "double_linked_list.h"
-#include "sol.h"
+#include "../include/double_linked_list.h"
+#include "../include/sol.h"
 
 using namespace alg;
 

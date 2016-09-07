@@ -1,4 +1,4 @@
-#include "palindrome.h"
+#include "../include/palindrome.h"
 #include <stdio.h>
 
 int main() {

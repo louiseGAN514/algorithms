@@ -22,7 +22,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include <generic.h>
+#include "generic.h"
 #include <memory>
 
 namespace alg {

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "max_subarray.h"
+#include "../include/max_subarray.h"
 
 using namespace alg;
 int main() {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "heap.h"
+#include "../include/heap.h"
 
 int main()
 {	

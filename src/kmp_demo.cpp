@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "kmp.h"
+#include "../include/kmp.h"
 using namespace alg;
 int main(void)
 {

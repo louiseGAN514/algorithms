@@ -2,8 +2,8 @@
 #include <stdint.h>
 #include <time.h>
 
-#include "generic.h"
-#include "radix_sort.h"
+#include "../include/generic.h"
+#include "../include/radix_sort.h"
 
 int main()
 {

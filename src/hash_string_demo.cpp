@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "hash_string.h"
+#include "../include/hash_string.h"
 using namespace alg;
 int main(void)
 {

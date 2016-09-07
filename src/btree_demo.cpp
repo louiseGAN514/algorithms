@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "btree.h"
+#include "../include/btree.h"
 
 using namespace alg;
 int main(void) {

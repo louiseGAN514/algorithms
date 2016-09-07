@@ -21,7 +21,7 @@
 #define ALGO_SELECTION_SORT_H__
 
 #include <assert.h>
-#include <generic.h>
+#include "generic.h"
 
 namespace alg {
 	template<typename T>

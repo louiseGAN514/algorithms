@@ -2,7 +2,7 @@
 #include <string>
 #include <math.h>
 
-#include "suffix_array.h"
+#include "../include/suffix_array.h"
 
 using namespace std;
 using namespace alg;

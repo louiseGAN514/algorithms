@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "hash_table.h"
+#include "../include/hash_table.h"
 using namespace alg;
 int main()
 {

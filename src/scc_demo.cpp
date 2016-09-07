@@ -2,9 +2,9 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "directed_graph.h"
-#include "graph_search.h"
-#include "scc.h"
+#include "../include/directed_graph.h"
+#include "../include/graph_search.h"
+#include "../include/scc.h"
 
 using namespace alg;
 

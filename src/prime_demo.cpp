@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <prime.h>
+#include "../include/prime.h"
 #include <time.h>
 
 using namespace alg;

@@ -8,8 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "generic.h"
-#include "shuffle.h"
+#include "../include/generic.h"
+#include "../include/shuffle.h"
 using namespace alg;
 int main()
 {

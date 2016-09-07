@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "hash_multi.h"
+#include "../include/hash_multi.h"
 using namespace alg;
 int main()
 {

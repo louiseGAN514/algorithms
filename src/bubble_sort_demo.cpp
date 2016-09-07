@@ -2,8 +2,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "generic.h"
-#include "bubble_sort.h"
+#include "../include/generic.h"
+#include "../include/bubble_sort.h"
 
 using namespace alg;
 int main (int argc, char const *argv[]) {

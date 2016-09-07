@@ -1,7 +1,7 @@
 
 #include <cstdlib>
 #include <iostream>
-#include "sort.h"
+#include "../include/sort.h"
 
 using namespace std;
 using namespace alg;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "k-means.h"
+#include "../include/k-means.h"
 using namespace alg;
 
 int main()

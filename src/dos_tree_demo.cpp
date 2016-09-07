@@ -2,7 +2,7 @@
 #include <time.h>
 #include <assert.h>
 #include <stdlib.h> /* rand() */
-#include "dos_tree.h"
+#include "../include/dos_tree.h"
 
 using namespace alg;
 int main(void)

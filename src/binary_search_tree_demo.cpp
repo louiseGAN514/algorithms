@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <generic.h>
+#include "../include/generic.h"
 #include <time.h>
 
-#include "shuffle.h"
-#include "binary_search_tree.h"
+#include "../include/shuffle.h"
+#include "../include/binary_search_tree.h"
 
 using namespace alg;
 int main()

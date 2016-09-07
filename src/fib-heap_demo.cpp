@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "fib-heap.h"
+#include "../include/fib-heap.h"
 
 int main(void) {
 	srand(time(NULL));

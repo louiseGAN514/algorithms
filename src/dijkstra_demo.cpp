@@ -4,8 +4,8 @@
 #include <time.h>
 #include <memory>
 
-#include "directed_graph.h"
-#include "dijkstra.h"
+#include "../include/directed_graph.h"
+#include "../include/dijkstra.h"
 
 using namespace alg;
 

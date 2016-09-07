@@ -1,5 +1,5 @@
 #include <iostream>
-#include "base64.h"
+#include "../include/base64.h"
 #include <string.h>
 
 using namespace std;

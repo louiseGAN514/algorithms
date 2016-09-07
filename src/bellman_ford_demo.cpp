@@ -4,8 +4,8 @@
 #include <time.h>
 #include <memory>
 
-#include "directed_graph.h"
-#include "bellman_ford.h"
+#include "../include/directed_graph.h"
+#include "../include/bellman_ford.h"
 
 using namespace alg;
 int main(void)

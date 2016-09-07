@@ -30,7 +30,7 @@ Retrieved from: http://en.literateprograms.org/Red-black_tree_(C)?oldid=18555
 #include <assert.h>
 #include <stdlib.h> /* rand() */
 
-#include "rbtree.h"
+#include "../include/rbtree.h"
 
 using namespace alg;
 

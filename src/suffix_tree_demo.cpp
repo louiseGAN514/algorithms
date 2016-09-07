@@ -1,4 +1,4 @@
-#include "suffix_tree.h"
+#include "../include/suffix_tree.h"
 #include <iostream>
 
 int SuffixTree::search(string sub)

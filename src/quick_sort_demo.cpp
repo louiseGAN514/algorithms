@@ -2,8 +2,8 @@
 #include <stdlib.h> 
 #include <time.h>
 
-#include "generic.h"
-#include "quick_sort.h"
+#include "../include/generic.h"
+#include "../include/quick_sort.h"
 
 int main()
 {

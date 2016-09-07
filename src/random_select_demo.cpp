@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "generic.h"
-#include "random_select.h"
+#include "../include/generic.h"
+#include "../include/random_select.h"
 
 int main()
 {

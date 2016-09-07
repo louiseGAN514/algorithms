@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "sha1.h" 
+#include "../include/sha1.h"
 
 #define TESTA   "abc\n"
 

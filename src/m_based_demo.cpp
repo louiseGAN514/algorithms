@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "imath.h"
-#include "prime.h"
+#include "../include/imath.h"
+#include "../include/prime.h"
 
 using namespace alg;
 int main()

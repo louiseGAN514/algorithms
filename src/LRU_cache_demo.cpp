@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "LRU_cache.h"
+#include "../include/LRU_cache.h"
 
 using namespace std;
 using namespace alg;

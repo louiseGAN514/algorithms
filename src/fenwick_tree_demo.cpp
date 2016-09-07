@@ -1,5 +1,5 @@
 #include <cstdio>
-#include "fenwick_tree.h"
+#include "../include/fenwick_tree.h"
 
 int main()
 {

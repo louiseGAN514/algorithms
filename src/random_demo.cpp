@@ -1,5 +1,5 @@
 #include <iostream>
-#include "random.h"
+#include "../include/random.h"
 
 int main(void) {
 	std::cout <<"generate random numbers\n";
